@@ -1,7 +1,6 @@
-var Logger = module.exports = require('./lib/logger');
+'use strict';
 
-var logger = new Logger(module, true);
-logger.log('some logs');
-logger.info('some infos');
-logger.error('some errors');
-logger.warn('some warns');
+module.exports = function (module, logInits, format) {
+  var Logger = require('./lib/logger');
+  return new Logger(module, logInits, format);
+};
