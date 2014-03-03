@@ -1,11 +1,11 @@
 {
-  "name": "node-logger",
+  "name": "microlog",
   "version": "0.1.0",
   "description": "Micro server-side logger ~60 sloc",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shuvalov-anton/node-logger.git"
+    "url": "https://github.com/shuvalov-anton/microlog.git"
   },
   "author": "Anton Shuvalov <anton_shuvalov@me.com> (http://anton-shuvalov.info)",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/shuvalov-anton/node-logger/issues"
+    "url": "https://github.com/shuvalov-anton/microlog/issues"
   },
   "dependencies": {
 

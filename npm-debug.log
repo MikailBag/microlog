@@ -1,0 +1,152 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/antonshuvalov/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/tmp.tgz
+12 verbose folder .
+13 info prepublish node-logger@0.1.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/antonshuvalov/.npm/1f1177db-tar.lock
+16 silly lockFile efef8e43-29112-0-7528728186152875-tmp-tgz tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/tmp.tgz
+17 verbose lock tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/tmp.tgz /Users/antonshuvalov/.npm/efef8e43-29112-0-7528728186152875-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile efef8e43-29112-0-7528728186152875-tmp-tgz tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/tmp.tgz
+21 silly lockFile efef8e43-29112-0-7528728186152875-tmp-tgz tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/tmp.tgz
+22 verbose tar unpack /var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/tmp.tgz
+23 silly lockFile 541e3a6e-29112-0-7528728186152875-package tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/package
+24 verbose lock tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/package /Users/antonshuvalov/.npm/541e3a6e-29112-0-7528728186152875-package.lock
+25 silly lockFile efef8e43-29112-0-7528728186152875-tmp-tgz tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/tmp.tgz
+26 verbose lock tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/tmp.tgz /Users/antonshuvalov/.npm/efef8e43-29112-0-7528728186152875-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry index.js
+31 silly gunzTarPerm extractEntry .jshintrc
+32 silly gunzTarPerm extractEntry lib/logger.js
+33 silly gunzTarPerm extractEntry readme.md
+34 silly lockFile 541e3a6e-29112-0-7528728186152875-package tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/package
+35 silly lockFile 541e3a6e-29112-0-7528728186152875-package tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/package
+36 silly lockFile efef8e43-29112-0-7528728186152875-tmp-tgz tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/tmp.tgz
+37 silly lockFile efef8e43-29112-0-7528728186152875-tmp-tgz tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/tmp.tgz
+38 verbose tar pack [ '/Users/antonshuvalov/.npm/node-logger/0.1.0/package.tgz',
+38 verbose tar pack   '/var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/package' ]
+39 verbose tarball /Users/antonshuvalov/.npm/node-logger/0.1.0/package.tgz
+40 verbose folder /var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/package
+41 silly lockFile 541e3a6e-29112-0-7528728186152875-package tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/package
+42 verbose lock tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/package /Users/antonshuvalov/.npm/541e3a6e-29112-0-7528728186152875-package.lock
+43 silly lockFile 7e8a9934-pm-node-logger-0-1-0-package-tgz tar:///Users/antonshuvalov/.npm/node-logger/0.1.0/package.tgz
+44 verbose lock tar:///Users/antonshuvalov/.npm/node-logger/0.1.0/package.tgz /Users/antonshuvalov/.npm/7e8a9934-pm-node-logger-0-1-0-package-tgz.lock
+45 silly lockFile 541e3a6e-29112-0-7528728186152875-package tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/package
+46 silly lockFile 541e3a6e-29112-0-7528728186152875-package tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-44728-OhLp3Eg9/1393853629112-0.7528728186152875/package
+47 silly lockFile 7e8a9934-pm-node-logger-0-1-0-package-tgz tar:///Users/antonshuvalov/.npm/node-logger/0.1.0/package.tgz
+48 silly lockFile 7e8a9934-pm-node-logger-0-1-0-package-tgz tar:///Users/antonshuvalov/.npm/node-logger/0.1.0/package.tgz
+49 silly lockFile c70e375e-ov-npm-node-logger-0-1-0-package /Users/antonshuvalov/.npm/node-logger/0.1.0/package
+50 verbose lock /Users/antonshuvalov/.npm/node-logger/0.1.0/package /Users/antonshuvalov/.npm/c70e375e-ov-npm-node-logger-0-1-0-package.lock
+51 silly lockFile c70e375e-ov-npm-node-logger-0-1-0-package /Users/antonshuvalov/.npm/node-logger/0.1.0/package
+52 silly lockFile c70e375e-ov-npm-node-logger-0-1-0-package /Users/antonshuvalov/.npm/node-logger/0.1.0/package
+53 verbose tar unpack /Users/antonshuvalov/.npm/node-logger/0.1.0/package.tgz
+54 silly lockFile c946f78c-ov-npm-node-logger-0-1-0-package tar:///Users/antonshuvalov/.npm/node-logger/0.1.0/package
+55 verbose lock tar:///Users/antonshuvalov/.npm/node-logger/0.1.0/package /Users/antonshuvalov/.npm/c946f78c-ov-npm-node-logger-0-1-0-package.lock
+56 silly lockFile 7e8a9934-pm-node-logger-0-1-0-package-tgz tar:///Users/antonshuvalov/.npm/node-logger/0.1.0/package.tgz
+57 verbose lock tar:///Users/antonshuvalov/.npm/node-logger/0.1.0/package.tgz /Users/antonshuvalov/.npm/7e8a9934-pm-node-logger-0-1-0-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm extractEntry index.js
+62 silly gunzTarPerm extractEntry .jshintrc
+63 silly gunzTarPerm extractEntry lib/logger.js
+64 silly gunzTarPerm extractEntry readme.md
+65 silly lockFile c946f78c-ov-npm-node-logger-0-1-0-package tar:///Users/antonshuvalov/.npm/node-logger/0.1.0/package
+66 silly lockFile c946f78c-ov-npm-node-logger-0-1-0-package tar:///Users/antonshuvalov/.npm/node-logger/0.1.0/package
+67 silly lockFile 7e8a9934-pm-node-logger-0-1-0-package-tgz tar:///Users/antonshuvalov/.npm/node-logger/0.1.0/package.tgz
+68 silly lockFile 7e8a9934-pm-node-logger-0-1-0-package-tgz tar:///Users/antonshuvalov/.npm/node-logger/0.1.0/package.tgz
+69 verbose chmod /Users/antonshuvalov/.npm/node-logger/0.1.0/package.tgz 644
+70 verbose chown /Users/antonshuvalov/.npm/node-logger/0.1.0/package.tgz [ 501, 20 ]
+71 silly lockFile 3a52ce78- .
+72 silly lockFile 3a52ce78- .
+73 silly publish { name: 'node-logger',
+73 silly publish   version: '0.1.0',
+73 silly publish   description: 'Micro server-side logger ~60 sloc',
+73 silly publish   license: 'MIT',
+73 silly publish   repository:
+73 silly publish    { type: 'git',
+73 silly publish      url: 'https://github.com/shuvalov-anton/node-logger.git' },
+73 silly publish   author:
+73 silly publish    { name: 'Anton Shuvalov',
+73 silly publish      email: 'anton_shuvalov@me.com',
+73 silly publish      url: 'http://anton-shuvalov.info' },
+73 silly publish   scripts: { test: 'NODE_ENV=test mocha -R spec' },
+73 silly publish   keywords: [],
+73 silly publish   bugs: { url: 'https://github.com/shuvalov-anton/node-logger/issues' },
+73 silly publish   dependencies: {},
+73 silly publish   devDependencies: {},
+73 silly publish   readme: '# Node Logger\n\n    var log = require(node-logger)(module, \':type: [:module] :message\', true /* Логировать загрузку */);\n\n1. ~50 sloc\n2. Ничего лишнего\n3. Очень простой\n4. Умеет в предопределенное форматирование в стиле express.logger;\n5. Умеет выводить в логгере названия файлов и дату\n6. Умеет логи в духе C — `log.info(\'%d port\', port);`\n7. Не умеет в цвета, потому что при перенаправлении stdout цветные файлы тяжело читать. (но может быть научится)\n8. Возвращает сообщения в runtime. `var message = log.info(\'my message\'); // my message`;\n\n\n    var log = require(\'node-logger\')(module);\n\n    log.info(\'Express listen %s host and %d port\', config.get(\'HOST\'), config.get(\'PORT\'));\n    log.error(\'Get error message: %message\', message);\n    log.debug(\'Shit! Shit! Shit!11\')\n\n\n### Форматирование\n\n`:type` — тип сообщения (`info`, `debug`, `error`)\n`:module` – название модуля (если есть)\n`:message` — тело логируемого сообщения',
+73 silly publish   readmeFilename: 'readme.md',
+73 silly publish   homepage: 'https://github.com/shuvalov-anton/node-logger',
+73 silly publish   _id: 'node-logger@0.1.0',
+73 silly publish   dist: { shasum: 'f21bb4334cd731b5a81db2115c2cbd21234f8f50' },
+73 silly publish   _from: '.' }
+74 verbose url raw node-logger
+75 verbose url resolving [ 'https://registry.npmjs.org/', './node-logger' ]
+76 verbose url resolved https://registry.npmjs.org/node-logger
+77 info trying registry request attempt 1 at 19:33:49
+78 http PUT https://registry.npmjs.org/node-logger
+79 http 403 https://registry.npmjs.org/node-logger
+80 info trying registry request attempt 1 at 19:33:51
+81 http PUT https://registry.npmjs.org/node-logger
+82 http 403 https://registry.npmjs.org/node-logger
+83 error publish Failed PUT 403
+84 error Error: forbidden user: shuvalov-anton not authorized to modify node-logger
+84 error Changed: description "A simple logging library that combines the simple APIs of Ruby's logger.rb and browser-js console.log()" -> "Micro server-side logger ~60 sloc"
+84 error Changed: dist-tags.latest "0.0.1" -> "0.1.0"
+84 error Added: versions.0.1.0
+84 error Changed: author.name "Aaron Quint" -> "Anton Shuvalov"
+84 error Changed: author.email "aaron@quirkey.com" -> "anton_shuvalov@me.com"
+84 error Added: author.url
+84 error Changed: readme "" -> "# Node Logger\u000a\u000a    var log = require(node-logger)(module, ':type: [:module] :message', true /* Логировать загрузку */);\u000a\u000a1. ~50 sloc\u000a2. Ничего лишнего\u000a3. Очень простой\u000a4. Умеет в предопределенное форматирование в стиле express.logger;\u000a5. Умеет выводить в логгере названия файлов и дату\u000a6. Умеет логи в духе C — `log.info('%d port', port);`\u000a7. Не умеет в цвета, потому что при перенаправлении stdout цветные файлы тяжело читать. (но может быть научится)\u000a8. Возвращает сообщения в runtime. `var message = log.info('my message'); // my message`;\u000a\u000a\u000a    var log = require('node-logger')(module);\u000a\u000a    log.info('Express listen %s host and %d port', config.get('HOST'), config.get('PORT'));\u000a    log.error('Get error message: %message', message);\u000a    log.debug('Shit! Shit! Shit!11')\u000a\u000a\u000a### Форматирование\u000a\u000a`:type` — тип сообщения (`info`, `debug`, `error`)\u000a`:module` – название модуля (если есть)\u000a`:message` — тело логируемого сообщения"
+84 error Changed: readmeFilename "" -> "readme.md"
+84 error Added: time
+84 error Added: homepage
+84 error Added: keywords
+84 error Added: repository
+84 error Added: bugs
+84 error Added: license
+84 error Added: _attachments: node-logger
+84 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:275:14)
+84 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+84 error     at Request.EventEmitter.emit (events.js:98:17)
+84 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+84 error     at Request.EventEmitter.emit (events.js:117:20)
+84 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+84 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+84 error     at _stream_readable.js:920:16
+84 error     at process._tickCallback (node.js:415:13)
+85 error If you need help, you may report this *entire* log,
+85 error including the npm and node versions, at:
+85 error     <http://github.com/isaacs/npm/issues>
+86 error System Darwin 13.0.0
+87 error command "node" "/usr/local/bin/npm" "publish"
+88 error cwd /Users/antonshuvalov/Desktop/node-logger
+89 error node -v v0.10.25
+90 error npm -v 1.3.24
+91 verbose exit [ 1, true ]
