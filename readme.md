@@ -1,5 +1,10 @@
 # Microlog
 
+### Установка
+
+    npm i -S microlog
+
+
     var log = require('microlog')(module, ':type: [:module] :message', true /* Логировать загрузку */);
 
 1. ~50 sloc
