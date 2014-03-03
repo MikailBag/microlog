@@ -1,5 +1,7 @@
 # Microlog
 
+![](https://www.dropbox.com/s/tgo31lxi8lo9xku/Screenshot%202014-03-04%2002.11.22.png)
+
 ### Установка
 
     npm i -S microlog
