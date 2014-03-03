@@ -11,13 +11,13 @@
 7. Не умеет в цвета, потому что при перенаправлении stdout цветные файлы тяжело читать. (но может быть научится)
 8. Возвращает сообщения в runtime. `var message = log.info('my message'); // my message`;
 
+```
+var log = require('node-logger')(module);
 
-    var log = require('node-logger')(module);
-
-    log.info('Express listen %s host and %d port', config.get('HOST'), config.get('PORT'));
-    log.error('Get error message: %message', message);
-    log.debug('Shit! Shit! Shit!11')
-
+log.info('Express listen %s host and %d port', config.get('HOST'), config.get('PORT'));
+log.error('Get error message: %message', message);
+log.debug('Shit! Shit! Shit!11')
+```
 
 ### Форматирование
 
