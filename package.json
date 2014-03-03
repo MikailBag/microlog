@@ -1,6 +1,6 @@
 {
   "name": "microlog",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Micro server-side logger ~60 sloc",
   "license": "MIT",
   "repository": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/shuvalov-anton/microlog/issues"
   },
   "dependencies": {
-
+    "colors": "~0.6.2"
   },
   "devDependencies": {}
 }
