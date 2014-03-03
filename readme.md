@@ -1,6 +1,6 @@
-# Node Logger
+# Microlog
 
-    var log = require(node-logger)(module, ':type: [:module] :message', true /* Логировать загрузку */);
+    var log = require('microlog')(module, ':type: [:module] :message', true /* Логировать загрузку */);
 
 1. ~50 sloc
 2. Ничего лишнего
@@ -12,7 +12,7 @@
 8. Возвращает сообщения в runtime. `var message = log.info('my message'); // my message`;
 
 ```
-var log = require('node-logger')(module);
+var log = require('microlog')(module);
 
 log.info('Express listen %s host and %d port', config.get('HOST'), config.get('PORT'));
 log.error('Get error message: %message', message);
