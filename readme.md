@@ -1,6 +1,6 @@
 # Microlog
 
-![](https://www.dropbox.com/s/tgo31lxi8lo9xku/Screenshot%202014-03-04%2002.11.22.png)
+![screenshot](https://f.cloud.github.com/assets/1410106/2313997/6a424516-a310-11e3-98f3-0b08946d0170.png)
 
 ### Установка
 
