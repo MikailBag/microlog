@@ -1,5 +1,7 @@
 # Microlog
 
+![screenshot](https://f.cloud.github.com/assets/1410106/2313997/6a424516-a310-11e3-98f3-0b08946d0170.png)
+
 ### Установка
 
     npm i -S microlog
