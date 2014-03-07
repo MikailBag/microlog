@@ -1,6 +1,6 @@
 {
   "name": "microlog",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Micro server-side logger ~60 sloc",
   "license": "MIT",
   "repository": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/shuvalov-anton/microlog/issues"
   },
   "dependencies": {
-    "einaros/microcolor": "0.0.2"
+    "microcolor": "0.0.2"
   },
   "devDependencies": {}
 }
