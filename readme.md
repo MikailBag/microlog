@@ -9,7 +9,8 @@
 5. Умеет выводить в логгере названия файлов и дату
 6. Умеет логи в духе `printf` — `log.info('%d port', port);`
 7. Умеет в цвета, приучен к переменной окружения `NOCOLOR`
-8. Возвращает текст сообщения в runtime. `var message = log.info('my message'); message === 'my message' // true`;
+8. Приучен к переменной окружения `NOLOG`
+9. Возвращает текст сообщения в runtime. `var message = log.info('my message'); message === 'my message' // true`;
 10. Ничего лишнего
 
 
