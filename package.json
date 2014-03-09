@@ -1,6 +1,6 @@
 {
   "name": "microlog",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Micro server-side logger ~60 sloc",
   "license": "MIT",
   "repository": {
