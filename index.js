@@ -41,7 +41,7 @@ Logger.prototype._log = function (type, method) {
     .replace(':module', this.module || '')
     .replace(':message', message);
   method = method || type;
-  util[method](formatedMessage);
+  'test' !== process.env.NODE_ENV && util[method](formatedMessage);
   return message;
 };
 
