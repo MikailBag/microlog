@@ -1,9 +1,10 @@
 # Microlog
 
+[![Build Status](https://travis-ci.org/shuvalov-anton/microlog.svg)](https://travis-ci.org/shuvalov-anton/microlog)
+
 Micro server-side logger for nodejs. ~50 sloc
 
 ![screenshot](https://f.cloud.github.com/assets/1410106/2313997/6a424516-a310-11e3-98f3-0b08946d0170.png)
-[![Build Status](https://travis-ci.org/shuvalov-anton/microlog.svg)](https://travis-ci.org/shuvalov-anton/microlog)
 
 Why to use?
 
