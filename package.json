@@ -19,6 +19,7 @@
     "microcolor": "0.0.2"
   },
   "devDependencies": {
+    "mocha": "^1.21.4",
     "should": "^4.0.4"
   }
 }
