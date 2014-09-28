@@ -1,6 +1,7 @@
 # Microlog
 
 [![Build Status](https://travis-ci.org/shuvalov-anton/microlog.svg)](https://travis-ci.org/shuvalov-anton/microlog)
+[![Code Climate](https://codeclimate.com/github/shuvalov-anton/microlog/badges/gpa.svg)](https://codeclimate.com/github/shuvalov-anton/microlog)
 
 Micro server-side logger for nodejs. ~50 sloc
 
