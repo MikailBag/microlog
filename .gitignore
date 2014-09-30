@@ -1,2 +1,4 @@
 node_modules
+coverage.html
+index-cov.js
 .DS_Store

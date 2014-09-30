@@ -11,8 +11,16 @@ var tinycolor = require('microcolor');
 
 var Logger = module.exports = function (module, logInits, format) {
   // setup module path and formats
-  this.module = module && module.filename.split('/').slice(-2).join('/');
-  this.format = format || [':type ', '[:module]'.grey, ':message'].join(' ');
+  this.module = module
+    && module.filename
+      .split('/')
+      .slice(-2)
+      .join('/');
+  this.format = format || [
+    ':type ',
+    '[:module]'.grey,
+    ':message'
+  ].join(' ');
   // bind log types to _log method
   this.info = this.log = Logger.prototype._log.bind(this, 'info ', 'log');
   this.error = exports.error = Logger.prototype._log.bind(this, 'error', null);

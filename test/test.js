@@ -1,11 +1,12 @@
-/* globals describe, it */
+/* globals before, describe, it */
 'use strict';
 
 /**
  * Module dependencies.
  */
-var log = require('../')(module);
-var assert = require('assert');
+var log = process.env.MICROLOG_COV
+  ? require('../index-cov')(module)
+  : require('../index')(module);
 
 // End of dependencies.
 
@@ -26,11 +27,26 @@ describe('Loger', function () {
     var result = log.info(message);
     result.should.equal(message);
   });
+  describe('NOLOG', function () {
+    before(function () {
+      process.env.NOLOG = true;
+    });
+    it('should not log info', function () {
+      var message = 'info';
+      var result = log.info(message);
+      result.should.equal(false);
+    });
+    it('should log not error', function () {
+      var message = 'error';
+      var result = log.info(message);
+      result.should.equal(false);
+    });
+    it('should log not debug', function () {
+      var message = 'debug';
+      var result = log.info(message);
+      result.should.equal(false);
+    });
+  });
 });
 
 
-
-
-log.info('info');
-log.error('error');
-log.debug('debug');
