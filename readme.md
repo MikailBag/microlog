@@ -27,7 +27,7 @@ Why to use?
 npm i -S microlog
 ```
 
-## Usege
+## Usage
 
 ```js
 var log = require('microlog')(Object module, [String format], [Boolean logOnRequire]);
