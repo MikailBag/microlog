@@ -4,6 +4,9 @@
 [![Code Climate](https://codeclimate.com/github/shuvalov-anton/microlog/badges/gpa.svg)](https://codeclimate.com/github/shuvalov-anton/microlog)
 [![Coverage Status](https://coveralls.io/repos/shuvalov-anton/microlog/badge.png?branch=master)](https://coveralls.io/r/shuvalov-anton/microlog?branch=master)
 
+[![NPM](https://nodei.co/npm/microlog.png?downloads=true)](https://nodei.co/npm/microlog/)
+
+
 Micro server-side logger for nodejs. ~50 sloc
 
 ![screenshot](https://f.cloud.github.com/assets/1410106/2313997/6a424516-a310-11e3-98f3-0b08946d0170.png)
