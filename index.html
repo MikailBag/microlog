@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Microlog : Micro server-side logger for nodejs. ~50 sloc">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Microlog</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/shuvalov-anton/microlog">View on GitHub</a>
+
+          <h1 id="project_title">Microlog</h1>
+          <h2 id="project_tagline">Micro server-side logger for nodejs. ~50 sloc</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/shuvalov-anton/microlog/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/shuvalov-anton/microlog/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="microlog" class="anchor" href="#microlog" aria-hidden="true"><span class="octicon octicon-link"></span></a>Microlog</h1>
+
+<p><a href="https://travis-ci.org/shuvalov-anton/microlog"><img src="https://travis-ci.org/shuvalov-anton/microlog.svg" alt="Build Status"></a>
+<a href="https://codeclimate.com/github/shuvalov-anton/microlog"><img src="https://codeclimate.com/github/shuvalov-anton/microlog/badges/gpa.svg" alt="Code Climate"></a>
+<a href="https://coveralls.io/r/shuvalov-anton/microlog?branch=master"><img src="https://coveralls.io/repos/shuvalov-anton/microlog/badge.png?branch=master" alt="Coverage Status"></a></p>
+
+<p><a href="https://nodei.co/npm/microlog/"><img src="https://nodei.co/npm/microlog.png?downloads=true" alt="NPM"></a></p>
+
+<p>Micro server-side logger for nodejs. ~50 sloc</p>
+
+<p><img src="https://f.cloud.github.com/assets/1410106/2313997/6a424516-a310-11e3-98f3-0b08946d0170.png" alt="screenshot"></p>
+
+<p>Why to use?</p>
+
+<ul>
+<li>Very simle</li>
+<li>~50 sloc</li>
+<li>Support express like formattings</li>
+<li>Support to add timestamps to logs</li>
+<li>Support to add filenames to logs</li>
+<li>Support <code>printf</code> like logging: <code>log.info('%d port', port)</code>
+</li>
+<li>Support colorful logs and <code>NOCOLOR</code> env variable that is so useful in some cases</li>
+<li>Support <code>NOLOG</code> env variable</li>
+<li>Log methods returns messages to runtime too</li>
+<li>Very simple</li>
+</ul>
+
+<h2>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<pre><code>npm i -S microlog
+</code></pre>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<div class="highlight highlight-js"><pre><span class="pl-s">var</span> log <span class="pl-k">=</span> <span class="pl-s3">require</span>(<span class="pl-s1"><span class="pl-pds">'</span>microlog<span class="pl-pds">'</span></span>)(<span class="pl-s3">Object</span> <span class="pl-sv">module</span>, [<span class="pl-s3">String</span> format], [<span class="pl-s3">Boolean</span> logOnRequire]);</pre></div>
+
+<ul>
+<li>
+<code>module</code> — node.js module link</li>
+<li>
+<code>format</code> — express like formatting string</li>
+<li>
+<code>logOnRequire</code> — write <code>init</code> messages to logs</li>
+</ul>
+
+<p>Example:</p>
+
+<pre><code>var log = require('microlog')(module);
+log.info('Express listen %s host and %d port', config.get('HOST'), config.get('PORT'));
+log.error('Get error message: %message', message);
+log.debug('Shit! Shit! Shit!11')
+</code></pre>
+
+<h3>
+<a id="formatings" class="anchor" href="#formatings" aria-hidden="true"><span class="octicon octicon-link"></span></a>Formatings</h3>
+
+<ul>
+<li>
+<code>:type</code> — message type: <code>info</code>, <code>debug</code>, <code>error</code>
+</li>
+<li>
+<code>:module</code> – module name if it exists</li>
+<li>
+<code>:message</code> — message body</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Microlog maintained by <a href="https://github.com/shuvalov-anton">shuvalov-anton</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
