@@ -11,7 +11,7 @@ var log = process.env.MICROLOG_COV
 // End of dependencies.
 
 
-describe('Loger', function () {
+describe('Logger', function () {
   it('should log info', function () {
     var message = 'info';
     var result = log.info(message);
